@@ -27,9 +27,9 @@ v.close()
 readme = os.path.join(os.path.dirname(__file__), "README.md")
 
 setup(
-    name="sqlalchemy_solr",
+    name="sqlalchemy_prometheus",
     version=VERSION,
-    description="Apache Solr Dialect for SQLAlchemy and Apache Superset",
+    description="Prometheus Dialect for SQLAlchemy and Apache Superset",
     long_description=open(readme).read(),
     long_description_content_type="text/markdown",
     classifiers=[
@@ -44,10 +44,10 @@ setup(
     ],
     install_requires=["requests", "numpy", "pandas", "sqlalchemy", "sqlparse"],
     tests_require=["pysolr", "pytest >= 6.2.1"],
-    keywords="Apache Solr Superset SQLAlchemy dialect",
-    author="Ahmed Adel",
-    author_email="hello@aadel.io",
-    url="https://github.com/aadel/sqlalchemy-solr",
+    keywords="Prometheus Superset SQLAlchemy dialect",
+    author="Roeei",
+    author_email="",
+    url="https://github.com/roeeiit1/sqlalchemy-prometheus",
     license="MIT",
     packages=find_packages(),
     include_package_data=True,
